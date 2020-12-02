@@ -119,15 +119,6 @@ namespace Ray.BiliBiliTool.Application
         }
 
         /// <summary>
-        /// 直播中心的银瓜子兑换硬币
-        /// </summary>
-        [TaskInterceptor("直播中心银瓜子兑换硬币", false)]
-        private decimal ExchangeSilver2Coin()
-        {
-            return _liveDomainService.ExchangeSilver2Coin();
-        }
-
-        /// <summary>
         /// 每月领取大会员福利
         /// </summary>
         [TaskInterceptor("每月领取大会员福利", false)]
