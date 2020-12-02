@@ -60,7 +60,6 @@ namespace Ray.BiliBiliTool.Application
             AddCoinsForVideo();
             MangaSign();
             LiveSign();
-            userInfo.Money = ExchangeSilver2Coin();
 
             ReceiveVipPrivilege(userInfo);
             ReceiveMangaVipReward(userInfo);
